@@ -17,5 +17,5 @@ base_dir
  
  `\base_dir\python install -e .`
  
- 3. 
+ 3.  
 
