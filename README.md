@@ -1,21 +1,32 @@
 # pypi-packag-creation
 file structure:
 ```
-base_dir
-      \ setup.py
-      \ LICENSE
-      \ README.md
-      \ src_dir
-             \ __init__.py
-             \ package_name.py
+pypi-packag-creation
+                  \ setup.py
+                  \ LICENSE
+                  \ README.md
+                  \ src
+                        \ __init__.py
+                        \ package_name.py
 ```
 1. Build your package
- 
- `\base_dir\python setup.py sdist bdist_wheel`
+
+ `\pypi-packag-creation\python setup.py sdist bdist_wheel`
  
 2. Install newly created packge localy to make sure it is working fine
  
- `\base_dir\python install -e .`
+ `\pypi-packag-creation\pip install -e .`
  
- 3.  
+3. pytest
+ 
+4. MANIFEST.in
 
+5.  twine upload .\dist\my-first-package-0.0.1* --repository-url https://test.pypi.org/legacy/ 
+
+6.  twine upload .\dist\my-first-package-0.0.1* 
+
+
+
+Resources:
+
+[Publishing (Perfect) Python Packages on PyPi](https://www.youtube.com/watch?v=GIF3LaRqgXo)

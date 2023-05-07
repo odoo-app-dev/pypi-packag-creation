@@ -1,6 +1,7 @@
 from setuptools import setup, find_packages
 import codecs
 import os
+from datetime import datetime
 
 here = os.path.abspath(os.path.dirname(__file__))
 
@@ -21,6 +22,7 @@ setup(
     version=VERSION,
     author="<your name>",
     author_email="<your_email@msn.com>",
+    url='https://github.com/odoo-app-dev/pypi-package-creation'
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
