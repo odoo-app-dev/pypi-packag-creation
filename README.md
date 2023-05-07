@@ -1,13 +1,17 @@
 # pypi-packag-creation
 file structure:
 ```
-pypi-packag-creation
-                  \ setup.py
-                  \ LICENSE
-                  \ README.md
-                  \ src
-                        \ __init__.py
-                        \ package_name.py
+pypi-packag-creation/
+      |- setup.py
+      |- LICENSE
+      |- README.md
+      |- MANIFEST.in
+      |+ test/
+            |- __init__.py
+            |- test.py
+      |+ src/
+            |- __init__.py
+            |- package_name.py
 ```
 1. Build your package
 
