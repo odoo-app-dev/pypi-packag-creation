@@ -8,8 +8,8 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 # Edit the NAME:
-NAME = ''
-VERSION = '0.0.1'
+NAME = 'myfirstpackage'
+VERSION = '0.0.4'
 DESCRIPTION = 'Collect Restaurant attendees information'
 LONG_DESCRIPTION = long_description if long_description else DESCRIPTION
 
@@ -22,7 +22,7 @@ setup(
     version=VERSION,
     author="<your name>",
     author_email="<your_email@msn.com>",
-    url='https://github.com/odoo-app-dev/pypi-package-creation'
+    url='https://github.com/odoo-app-dev/pypi-package-creation',
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
