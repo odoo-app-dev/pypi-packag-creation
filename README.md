@@ -1,4 +1,4 @@
-# PYPI Registration Process 
+# PYPI Registration Process (under development)
 
 1. [Virtual Environment](#virtual-environment)
 1. [Create simple file structure](#file-structure)
@@ -8,6 +8,8 @@
 5. [upload and test the package on test.pypi.org](#upload-and-test-the-package-on-testpypiorg)
 6. [upload to the pypi.org](#upload-to-the-pypiorg)
 7. [upload the source files to github.com](#upload-the-source-files-to-githubcom)
+
+[Resources](#resources)
 
 ## Virtual Environment
 
@@ -60,11 +62,17 @@ pypi-packag-creation/
 
 [UP](#pypi-registration-process)
 
+
+
 ## Upload and test the package on test.pypi.org
 
 `twine upload .\dist\my-first-package-0.0.1\* --repository-url https://test.pypi.org/legacy/`
 
+[Using TestPyPI](https://packaging.python.org/en/latest/guides/using-testpypi/)
+
 [UP](#pypi-registration-process)
+
+
 
 ## Upload to the pypi.org
 
@@ -72,15 +80,17 @@ pypi-packag-creation/
 
 [UP](#pypi-registration-process)
 
+
+
 ## Upload the source files to github.com
 
 
 [UP](#pypi-registration-process)
 
 
-Resources:
+## Resources:
 
-[Publishing (Perfect) Python Packages on PyPi](https://www.youtube.com/watch?v=GIF3LaRqgXo)
+[Publishing (Perfect) Python Packages on PyPi "youtube"](https://www.youtube.com/watch?v=GIF3LaRqgXo)
 
 
 
