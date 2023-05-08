@@ -8,7 +8,7 @@
 6. [upload to the pypi.org](#upload-to-the-pypiorg)
 7. [upload the source files to github.com](#upload-the-source-files-to-githubcom)
 
-# File Structure
+## File Structure
 
 
 ```
@@ -25,17 +25,17 @@ pypi-packag-creation/
             |- package_name.py
 ```
 
-# Update package information
+## Update package information
 
-# Build the package
+## Build the package
 
-# Test your package locally
+## Test your package locally
 
-# Upload and test the package on test.pypi.org
+## Upload and test the package on test.pypi.org
 
-# Upload to the pypi.org
+## Upload to the pypi.org
 
-# Upload the source files to github.com
+## Upload the source files to github.com
 
 
 
