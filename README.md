@@ -1,6 +1,6 @@
 # PYPI Registration Process 
 
-1. [Virtual Environment](#virtual-nvironment)
+1. [Virtual Environment](#virtual-environment)
 1. [Create simple file structure](#file-structure)
 2. [Update package information](#update-package-information)
 3. [Build the package](#build-the-package)
@@ -15,6 +15,7 @@
 python -m venv project_name
 project_name\Scripts\activate
 ```
+[UP](#pypi-registration-process)
 
 ## File Structure
 
@@ -32,6 +33,7 @@ pypi-packag-creation/
             |- __init__.py
             |- package_name.py
 ```
+[UP](#pypi-registration-process)
 
 ## Update package information
 - LICENSE
@@ -40,10 +42,14 @@ pypi-packag-creation/
 - setup.cfg
 - MANIFEST.in
 
+[UP](#pypi-registration-process)
+
 
 ## Build the package
 
 `\pypi-packag-creation\python setup.py sdist bdist_wheel`
+
+[UP](#pypi-registration-process)
 
 ## Test your package locally
 - Install newly created packge localy to make sure it is working fine
@@ -52,17 +58,24 @@ pypi-packag-creation/
 
 - pytest
 
+[UP](#pypi-registration-process)
+
 ## Upload and test the package on test.pypi.org
 
 `twine upload .\dist\my-first-package-0.0.1\* --repository-url https://test.pypi.org/legacy/`
+
+[UP](#pypi-registration-process)
 
 ## Upload to the pypi.org
 
 `twine upload .\dist\my-first-package-0.0.1\*`
 
+[UP](#pypi-registration-process)
+
 ## Upload the source files to github.com
 
 
+[UP](#pypi-registration-process)
 
 
 Resources:
