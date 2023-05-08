@@ -4,9 +4,9 @@
 2. [Update package information](#update-package-information)
 3. [Build the package](#build-the-package)
 4. [Test your package locally](#test-your-package-locally)
-5. [upload and test the package on test.pypi.org](#upload-and-test-the-package-on-test.pypi.org)
-6. upload to the pypi.org
-7. upload the source files to github.com
+5. [upload and test the package on test.pypi.org](#upload-and-test-the-package-on-testpypiorg)
+6. [upload to the pypi.org](#upload-to-the-pypiorg)
+7. [upload the source files to github.com](#upload-the-source-files-to-githubcom)
 
 # File Structure
 
